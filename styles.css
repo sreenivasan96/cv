@@ -1,0 +1,134 @@
+body {
+    color: #6666CC;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+h1 {
+    /* font size in percent - 100% = 16px = 1em
+    root em - rem font size */
+    color: #000033;
+    font-size: 74px;
+    margin: 50px auto 0 auto;
+    font-family: 'Roboto Serif', serif;
+}
+h2 {
+    color: #333366;
+    font-family: 'Roboto Slab', serif;
+    font-size: 54px;
+    
+    
+}
+h3 {
+    color: #000033;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted #8176FF 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+a {
+    color: #6666CC;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: #000033;
+}
+.nav-bar {
+    background-color: #41FE8F ;
+    padding: 20px 0 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.nav-bar a {
+    text-align: center;
+}
+
+.spl {
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.msg {
+    width:  40%;
+    margin: 40px auto 60px;
+}
+.copyright {
+    color: #000033;
+    font-size: 75%;
+    padding: 20px 0 5px 0;
+    
+}
+
+.top-container {
+    background-color: #6666CC;
+    padding-top: 50px;
+}
+.bottom-container {
+    background-color: #41FE8F;
+    margin-top: 32px;
+    padding: 20px 0 5px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 80px;
+    
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.skill-row {
+    width: 50%;
+    text-align: left;
+    margin: 20px auto 50px auto;
+   
+}
+.hero-img {
+    width: 20%;
+    padding-top: 50px;
+}
+.testing-img {
+    width: 22%;
+    float: left;
+    margin-right: 30px;
+}
+.lang-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+
+}
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Roboto Serif;
+    color: #000035;
+    font-size: 20px;
+    background: #ccccff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #41fe90;
+    text-decoration: none;
+  }
