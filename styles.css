@@ -35,14 +35,14 @@ hr {
     margin: 100px auto;
 }
 a {
-    color: #6666CC;
+    color: #000033;
     margin: 20px;
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
     
 }
 a:hover {
-    color: #000033;
+    color: #8176FF;
 }
 .nav-bar {
     background-color: #41FE8F ;
